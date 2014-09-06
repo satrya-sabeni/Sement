@@ -21,6 +21,14 @@ $(document).ready(function(){
 	}
 	);
 
+	var countBox1 = new countUp("c1", 0, 15, 0, 2);
+
+		countBox1.start();
+
+
+		$(".box span.info").fadeIn();
+
+
 
 	/*-------------------------------box 2 */
 
@@ -156,12 +164,34 @@ $(document).ready(function(){
 			$(".box7").slideToggle(400);
 		});
 
-			/*----------box7*/
-			$(".button_8").hover(function(){
-				$(".box8 span.info").blurText("to", { blur: 0, duration: 500 });
-			}, function() {
-				$(".box8 span.info").blurText("to", { blur: 10, duration: 500 });
+			/*----------box9*/
+			var countBox9 = new countUp("c9", 0, 15, 0, 2.2);
+
+
+			$(".button_9").hover(function(){
+				countBox9.start();
 			});
+
+			$(".button_9").hover(function(){
+				$(".box9 span.info").fadeIn();
+			});
+
+			$(".button_9").hover(
+			function(){
+				$(".box9").animate(
+				{"height":"200px","width":"200px","top":"0px"},"fast");
+			},
+				function  () {
+				$(".box9").animate(
+				{"height":"180px","width":"180px","top":"10px"},"fast");
+			}
+			);
+
+			/*----------box10*/
+
+			$(".button_10").hover(function(){
+			$(".box10").slideToggle(400);
+		});
 
 
 	/* end functions*/

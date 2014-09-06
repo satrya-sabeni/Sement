@@ -222,16 +222,24 @@ position:relative;
     color: #6c4eb7;
 }
 
-.box span.info:before{
-	content:"15 vacatures";
-    margin:0;
-    padding:0 0 28px 0;
+.box span.info{
+  display:none;
+  margin:0;
+  padding:0 0 28px 0;
 
-    font-family: 'MaisonNeueMono';
-    letter-spacing: normal;
-    font-weight: normal;
-    font-size: 12px;
-    text-transform: uppercase;
+  font-family: 'MaisonNeueMono';
+  letter-spacing: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.box span.info:before{
+	content:"";
+}
+
+.box span.info:after{
+  content:" vacatures";
 }
 
 /*----------button-2-------*/
@@ -546,7 +554,8 @@ position:relative;
   width:200px;
   margin-bottom:7px;
 }
-.box8{
+
+/*.box8{
   background:#fff;
   height:180px;
   width:180px;
@@ -554,7 +563,7 @@ position:relative;
   top:10px;
   position:relative;
   text-align:center;
-}
+}*/
 
 .button_8 h1{
     margin:0;
@@ -577,12 +586,13 @@ position:relative;
 }
 
 .box8 span.info{
+  display:0;
   position:relative;
   z-index:999;
 }
 
 .box8 span.info:before{
-  content:"15 vacatures";
+    content:"15 vacatures";
     margin:0;
     padding:0 0 0px 0;
 
@@ -612,7 +622,114 @@ position:relative;
 }
 
 
+/*-----------button-9----------*/
 
+.button_9{
+    background: transparent url('../img/background01.jpg') no-repeat;
+  height:200px;
+  width:200px;
+  margin-bottom:7px;
+}
+.box9{
+  background:#fff;
+  height:180px;
+  width:180px;
+  margin:auto;
+  top:10px;
+  position:relative;
+  text-align:center;
+
+}
+.button_9 h1{
+    margin:0;
+    padding:0;
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+    display:none;
+}
+
+.box9 span.title{
+  position:relative;
+}
+
+.box9 span.title:before{
+    content:"architectuur";
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+}
+
+.box9 span.info{
+  position:relative;
+  z-index:999;
+  font-family: 'MaisonNeueMono';
+  font-size: 12px;
+  display:none;
+}
+
+.box9 span.info:after{
+  content:" vacatures";
+    margin:0;
+    padding:0 0 0px 0;
+    letter-spacing: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*-----------button-10----------*/
+
+.button_10{
+    background: transparent url('../img/background01.jpg') no-repeat;
+  height:200px;
+  width:200px;
+  margin-bottom:7px;
+}
+.box10{
+  background:#fff;
+  height:180px;
+  width:180px;
+  margin:auto;
+  top:10px;
+  position:relative;
+  text-align:center;
+}
+.button_10 h1{
+    margin:0;
+    padding:0;
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+    display:none;
+}
+
+.box10 span.title{
+  position:relative;
+}
+
+.box10 span.title:before{
+    content:"architectuur";
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+}
+
+.box10 span.info{
+  position:relative;
+  z-index:999;
+}
+
+.box10 span.info:before{
+  content:"15 vacatures";
+    margin:0;
+    padding:0 0 0px 0;
+
+    font-family: 'MaisonNeueMono';
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
 
 
 /* ==========================================================================

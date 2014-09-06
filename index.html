@@ -11,8 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/default.css" />
-        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/flip.css" />
+        <!--<link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />-->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -36,7 +38,7 @@
             	<div class="box">
             	<br><br>
             		<span class="title"></span><br/>
-            		<span class="info"></span>
+            		<span class="info" id="c1"></span>
             	</div>
             </div>
 
@@ -96,16 +98,46 @@
             </div>
 
             <div class="button_8">
-              <div class="box8">
-              <br><br>
-                <span class="title"></span><br/>
-                <span class="info"></span><br>
-                <span class="description"></span>
+              <div class="flip3D">
+                <div class="front">
+                  <br><br>
+                  <span class="title"></span><br/>
+                  <span class="info animated fadeInLeft"></span><br>
+                </div>
+                <div class="back">
+                  <br><br>
+                  <span class="info animated fadeInLeft"></span><br>
+                  <span class="description"></span>
+                </div>
               </div>
             </div>
 
           </div>
-        </div>
+
+            <div class="col1">
+
+              <div class="button_9">
+                <div class="box9">
+                <br><br>
+                  <span class="title"></span><br/>
+                  <span class="info" id="c9"></span>
+                </div>
+              </div>
+
+              <div class="button_10">
+                <div class="box10">
+                <br><br>
+                  <span class="title"></span><br/>
+                  <span class="info"></span><br>
+                  <span class="description"></span>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
 
         <!--This is ver2 branch-->
 
@@ -118,5 +150,6 @@
         <script src="js/vendor/toucheffects.js"></script>
         <script src="js/jquery.color.js"></script>
         <script src="js/jquery.blurtext.js"></script>
+        <script src="js/countUp.min.js"></script>
     </body>
 </html>

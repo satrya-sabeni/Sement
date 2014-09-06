@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.flip3D{
+  width:180px;
+  height:180px;
+  margin:10px;
+  float:left;
+  text-align:center;
+}
+
+.flip3D > .front span.title:before{
+  content:"architectuur";
+  font-size: 28px;
+  font-weight: normal;
+  color: #6c4eb7;
+}
+
+.flip3D > .front span.info:before{
+  content:"15 vacatures";
+  margin:0;
+  padding:0 0 0px 0;
+  font-family: 'MaisonNeueMono';
+  letter-spacing: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.flip3D > .back span.description:before{
+  content:"meer informatie";
+  font-family: 'MaisonNeueMono';
+  font-size:11px;
+
+}
+
+.flip3D > .front{
+  position:absolute;
+  transform: perspective( 600px ) rotateY( 0deg );
+  background:#FFF;
+  width:180px;
+  height:180px;
+  backface-visibility: hidden;
+  transition: transform .4s linear 0s;
+  }
+
+  .flip3D > .back{
+    position:absolute;
+    transform: perspective( 600px ) rotateY( 180deg );
+    background: #eeeeee;
+    width:180px;
+    height:180px;
+    backface-visibility: hidden;
+    transition: transform .4s linear 0s;
+  }
+
+  .flip3D:hover > .front{
+    transform: perspective( 600px ) rotateY( -180deg );
+    }
+
+  .flip3D:hover > .back{
+    transform: perspective( 600px ) rotateY( 0deg );
+  }
