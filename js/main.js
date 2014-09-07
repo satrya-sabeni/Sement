@@ -193,6 +193,37 @@ $(document).ready(function(){
 			$(".box10").slideToggle(400);
 		});
 
+			/*--------------box11*/
+
+			$(".button_11").hover(
+			function(){
+				$(".box11").animate(
+				{"height":"200px","width":"200px","top":"0px"},"fast");
+			},
+				function  () {
+				$(".box11").animate(
+				{"height":"180px","width":"180px","top":"10px"},"fast");
+			}
+			);
+
+			$(".button_11").hover(function(){
+				$(".box11 p.info").animo({animation: "fadeInLeft", duration: 0.5});
+			},
+			function(){
+				$(".box11 p.info").animo({animation: "fadeOutLeft", duration: 0.5});
+			}
+			);
+
+			$(".button_11").hover(function(){
+				$(".box11 p.info").css("opacity","1");
+			},
+			function(){
+				$(".box11 p.info").css("opacity","0");
+			}
+			);
+
+			$('#helo').animo({animation: "fadeInLeft", duration: 0.5});
+
 
 	/* end functions*/
 });

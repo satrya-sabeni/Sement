@@ -690,7 +690,7 @@ position:relative;
   height:180px;
   width:180px;
   margin:auto;
-  top:10px;
+  top:0px;
   position:relative;
   text-align:center;
 }
@@ -729,6 +729,84 @@ position:relative;
     font-weight: normal;
     font-size: 12px;
     text-transform: uppercase;
+}
+
+.under{
+    background:#eee;
+    height:180px;
+    width:180px;
+    margin:auto;
+    top:10px;
+    position:relative;
+    text-align:center;
+    top:10px;
+}
+
+
+/*------------------box11--------*/
+
+
+.button_11{
+    background: transparent url('../img/background01.jpg') no-repeat;
+  height:200px;
+  width:200px;
+  margin-bottom:7px;
+}
+.box11{
+  background:#fff;
+  height:180px;
+  width:180px;
+  margin:auto;
+  top:10px;
+  position:relative;
+  text-align:center;
+
+}
+.button_11 h1{
+    margin:0;
+    padding:0;
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+}
+
+.box11 span.title{
+  position:relative;
+}
+
+.box11 span.title:before{
+    content:"architectuur";
+    font-size: 28px;
+    font-weight: normal;
+    color: #6c4eb7;
+}
+
+.box11 span.info{
+  position:relative;
+  z-index:999;
+}
+
+.box11 span.info:before{
+  content:"15 vacatures";
+    margin:0;
+    padding:0 0 0px 0;
+
+    font-family: 'MaisonNeueMono';
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    display:0;
+}
+
+.box11 p.info{
+  margin:0px;
+  opacity:0;;
+
+}
+
+#helo{
+  display:0;
 }
 
 
