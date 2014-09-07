@@ -206,8 +206,10 @@ $(document).ready(function(){
 			}
 			);
 
+
 			$(".button_11").hover(function(){
-				$(".box11 p.info").animo({animation: "fadeInLeft", duration: 0.5});
+				$(".box11 p.info").animo({animation: "fadeInLeft", duration: 0.5},function(){
+				});
 			},
 			function(){
 				$(".box11 p.info").animo({animation: "fadeOutLeft", duration: 0.5});
@@ -222,7 +224,15 @@ $(document).ready(function(){
 			}
 			);
 
-			$('#helo').animo({animation: "fadeInLeft", duration: 0.5});
+			/*$(".button_11").hover(function(){
+				$(".box11 span.description").css("opacity","1");
+			},
+			function(){
+				$(".box11 span.description").css("opacity","0");
+			}
+		);*/
+
+
 
 
 	/* end functions*/

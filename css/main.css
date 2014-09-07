@@ -135,6 +135,16 @@ body{
     font-weight: normal;
     background: #eee;
 }
+
+.wrapper{
+    width:100%;
+}
+
+.main{
+  width:960px;
+  margin:0 auto;
+}
+
 a{
     text-decoration:none;
 }
@@ -191,8 +201,9 @@ a{
 }
 
 .col1{
-  width:210px;
+  width:200px;
   float:left;
+  padding:0 20px;
 }
 
 /*---------------Button-1---------------*/
@@ -200,7 +211,7 @@ a{
     background: transparent url('../img/background01.jpg') no-repeat;
 	height:200px;
 	width:200px;
-	margin-bottom:7px;
+	margin-bottom:40px;
 }
 .box{
 	background:#fff;
@@ -245,9 +256,10 @@ position:relative;
 /*----------button-2-------*/
 
 .button_2{
-    background: transparent url('../img/background01.jpg') no-repeat;
+  background: transparent url('../img/background01.jpg') no-repeat;
 	height:200px;
 	width:200px;
+  margin-bottom:40px;
 }
 .box2{
 	background:#fff;
@@ -288,7 +300,6 @@ position:relative;
   background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-top:7px;
 }
 .box3{
   background:#fff;
@@ -334,10 +345,10 @@ position:relative;
 /*-----------button-4----------*/
 
 .button_4{
-    background: transparent url('../img/background01.jpg') no-repeat;
+  background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-top:7px;
+  margin-bottom:40px;
 }
 .box4{
   background:#fff;
@@ -375,10 +386,10 @@ position:relative;
 /*-----------button-5----------*/
 
 .button_5{
-    background: transparent url('../img/background01.jpg') no-repeat;
+  background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:40px;
 }
 .box5{
   background:#fff;
@@ -438,7 +449,7 @@ position:relative;
 /*-----------button-6----------*/
 
 .button_6{
-    background: transparent url('../img/background01.jpg') no-repeat;
+  background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
   margin-bottom:7px;
@@ -496,7 +507,7 @@ position:relative;
     background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:40px;
 }
 .box7{
   background:#fff;
@@ -552,7 +563,7 @@ position:relative;
     background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:40px;
 }
 
 /*.box8{
@@ -628,7 +639,7 @@ position:relative;
     background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:0px;
 }
 .box9{
   background:#fff;
@@ -683,7 +694,7 @@ position:relative;
     background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:40px;
 }
 .box10{
   background:#fff;
@@ -750,7 +761,7 @@ position:relative;
     background: transparent url('../img/background01.jpg') no-repeat;
   height:200px;
   width:200px;
-  margin-bottom:7px;
+  margin-bottom:40px;
 }
 .box11{
   background:#fff;
@@ -801,13 +812,37 @@ position:relative;
 
 .box11 p.info{
   margin:0px;
-  opacity:0;;
+  opacity:0;
 
-}
-
-#helo{
+  font-family: 'MaisonNeueMono';
+  letter-spacing: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
   display:0;
+  margin-top:5px;
+
 }
+
+.box11 span.description:{
+  opacity:0;
+  display:none;
+}
+
+.box11 span.description:before{
+  content:"Extra informatie";
+    margin:0;
+    padding:0 0 28px 0;
+
+    font-family: 'MaisonNeueMono';
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height:100px;
+
+}
+
 
 
 /* ==========================================================================
